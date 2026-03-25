@@ -4,3 +4,24 @@
     justify-content: center;
     height: 100vb;
 }
+
+#Portfolio{
+    font-size: 10vb;
+    padding: 0%;
+    margin: 0%;
+}
+
+.hauptlink{
+    font-size: 5vb;
+    margin: 5%;
+    margin-top: 0%;
+}
+
+.hauptseite{
+    position: relative;
+    text-align: center;
+}
+
+#titelseite{
+    background-color: black;
+}
