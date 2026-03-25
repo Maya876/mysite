@@ -1,3 +1,7 @@
+a:link{
+    text-decoration: none;
+}
+
 body{
     background-color: rgb(0, 0, 0);
 }
@@ -16,6 +20,7 @@ body{
 }
 
 .hauptlink{
+    font-family: myfont;
     font-size: 5vb;
     margin: 5%;
     margin-top: 0%;
@@ -32,4 +37,9 @@ body{
 
 #vektorlink{
     color:aliceblue;
+}
+
+@font-face{
+    font-family: myfont;
+    src: url(./font/Knewave-Regular.ttf);
 }
