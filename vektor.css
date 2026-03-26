@@ -2,4 +2,28 @@
     display: flex;
     justify-content: center;
     height: 100vb;
+
+    position: relative;
+    top: 0;
+    left: 0;
 }
+
+.muehle{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50vb;
+}
+
+.mohn{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 20vb;
+}
+
+  .image-stack {
+    position: relative; /* Referenzpunkt für absolute Positionierung */
+    width: 300px;       /* feste oder responsive Breite */
+    height: auto;
+  }
