@@ -24,13 +24,45 @@ body{
     transition: font-size 1s;
 }
 
+.pixellink{
+     font-family: myfont;
+}
+
 .hauptlink:hover{
     font-size: 7vb;
 }
 
 .hauptseite{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(38, 110, 173);
+
+   
+
+}
+
+.pixellink{
     text-align: center;
+    width: 100%;
+    height: 5px;
+}
+
+.pixel{
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    background-color:aqua;
+    height: 70vh;
+    border:2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+
+.schildkröte{
+    width: 30vw;
 }
 
 #pixellink{
@@ -45,4 +77,16 @@ body{
 @font-face{
     font-family: myfont;
     src: url(./font/Knewave-Regular.ttf);
+}
+
+.bilder{
+    display: flex;
+    height: 100vb;
+
+    position: relative;
+}
+
+.schildkröte{
+    position: absolute;
+    width: 50vb;
 }
