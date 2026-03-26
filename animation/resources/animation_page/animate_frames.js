@@ -1,5 +1,5 @@
 const startFrame = 0;
-const endFrame = 3;
+const endFrame = 7;
 const frames = [];
 
 // Preload frames from "frames_2" folder
