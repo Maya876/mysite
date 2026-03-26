@@ -6,11 +6,6 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
-.flex-container{
-    display: flex;
-    justify-content: center;
-    height: 100vb;
-}
 
 #Portfolio{
     font-size: 10vb;
@@ -43,16 +38,4 @@ body{
 @font-face{
     font-family: myfont;
     src: url(./font/Knewave-Regular.ttf);
-}
-
-.container {
-  display: flex;
-  background-color: DodgerBlue;
-}
-
-.container div {
-  background-color: #c53737;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
 }
