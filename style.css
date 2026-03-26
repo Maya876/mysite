@@ -20,6 +20,12 @@ body{
     font-size: 5vb;
     margin: 5%;
     margin-top: 0%;
+
+    transition: font-size 1s;
+}
+
+.hauptlink:hover{
+    font-size: 7vb;
 }
 
 .hauptseite{
@@ -34,6 +40,7 @@ body{
 #vektorlink{
     color:aliceblue;
 }
+
 
 @font-face{
     font-family: myfont;
