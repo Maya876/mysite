@@ -17,13 +17,13 @@
 
 .mohn{
     position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 20vb;
+    bottom: 20%;
+    left: 40%;
+    width: 15vb;
+
+    transition:  1s;
 }
 
-  .image-stack {
-    position: relative; /* Referenzpunkt für absolute Positionierung */
-    width: 300px;       /* feste oder responsive Breite */
-    height: auto;
-  }
+.mohn:hover{
+    width: 20vb;
+}
