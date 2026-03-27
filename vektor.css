@@ -31,7 +31,8 @@
 #home{
     display: flex;
     justify-content: left;
-    width: 5%;
+    width: 5vw;
 
     position: fixed;
+    z-index: 100;
 }
