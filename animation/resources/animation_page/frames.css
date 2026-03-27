@@ -19,3 +19,12 @@ body{
     height:100vh;
 
 }
+
+#home{
+    display: flex;
+    justify-content: left;
+    width: 5vw;
+
+    position: fixed;
+    z-index: 100;
+}
