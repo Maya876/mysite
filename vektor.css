@@ -27,3 +27,9 @@
 .mohn:hover{
     width: 20vb;
 }
+
+#home{
+    display: flex;
+    justify-content: left;
+    width: 5%;
+}
