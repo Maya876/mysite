@@ -26,6 +26,8 @@ body{
 
 .pixellink{
      font-family: myfont;
+     font-size: 5vb;
+     color: aliceblue;
 }
 
 .hauptlink:hover{
@@ -36,7 +38,6 @@ body{
     display: flex;
     justify-content: center;
     width: 100vw;
-    background-color: rgb(38, 110, 173);
 
    
 
@@ -46,8 +47,6 @@ body{
     display: flex;
     align-items: center;
     width: 35vw;
-    background-color:aqua;
-    border:2px solid black;
     flex-direction: column;
     
 
