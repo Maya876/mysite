@@ -15,14 +15,14 @@ body{
     color: aliceblue;
 }
 
-.hauptlink{
+/*.hauptlink{
     font-family: myfont;
     font-size: 5vb;
     margin: 5%;
     margin-top: 0%;
 
     transition: font-size 1s;
-}
+}*/
 
 .pixellink{
      font-family: myfont;
@@ -42,28 +42,28 @@ body{
 
 }
 
-.pixellink{
-    text-align: center;
-    width: 100%;
-    height: 5px;
-}
-
 .pixel{
     display: flex;
-    justify-content: center;
+    align-items: center;
     width: 35vw;
     background-color:aqua;
-    height: 70vh;
     border:2px solid black;
     flex-direction: column;
-    flex-wrap: wrap;
     
 
 }
 
-.schildkröte{
-    width: 30vw;
+.pixellink{
+    text-align: center;
+    width: 100%;
 }
+
+.schildkröte{
+    width: 70%;
+}
+
+
+
 
 #pixellink{
     color: aliceblue;
@@ -86,7 +86,3 @@ body{
     position: relative;
 }
 
-.schildkröte{
-    position: absolute;
-    width: 50vb;
-}
